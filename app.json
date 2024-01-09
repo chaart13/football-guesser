@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "football_guesser",
+    "name": "Football Memory Game",
     "slug": "football_guesser",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,11 +20,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#000000"
+      },
+      "package": "com.footballmemorygame.stalo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bbf6dce6-1ad9-4758-97a0-bab232c8f19b"
+      }
     }
   }
 }
